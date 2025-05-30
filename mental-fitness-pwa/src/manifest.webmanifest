@@ -1,0 +1,9 @@
+{
+  "name": "Mental Fitness PWA",
+  "short_name": "MentalFit",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Daily cognitive exercises",
+  "icons": []
+}

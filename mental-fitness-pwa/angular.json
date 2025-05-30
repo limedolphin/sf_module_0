@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/angular-cli",
+  "projects": {
+    "mental-fitness-pwa": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "options": {
+            "outputPath": "dist/mental-fitness-pwa",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": ["src/favicon.ico", "src/assets", "src/manifest.webmanifest"],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "mental-fitness-pwa"
+}
